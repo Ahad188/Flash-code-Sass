@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="demo.css">
+  </head>
+  <body>
+     <!-- navbar start -->
+     <header>
+          <a href="">"LOGO"</a>
+          <div class="bx bx-menu" id="menu-icon">
+               
+          </div>
+          
+          <ul class="navbar" id="navigate">
+               <li><a href="#">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#contact">Contact</a></li>
+          </ul>
+     </header>
+     <!-- navbar end -->
+     <!-- banner -->
+     <section class="home" id="home">
+          <div class="home-text">
+               <span>Welcome To</span>
+               <h1>Flash Coder Studio</h1>
+               <h2>Free code  <br> Enjoy</h2>
+               <button class="btn">Join Now</button>
+          </div>
+          <div class="home-img">
+               <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29kZXxlbnwwfHwwfHx8MA%3D%3D" alt="logo">
+          </div>
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <script>
+          let menu = document.getElementById('menu-icon') ;
+          let navigate = document.getElementById('navigate') ;
+ 
+
+ 
+     menu.onclick=()=>{
+         
+          menu.classList.toggle('bx-x')
+          navigate.classList.toggle('active') 
+     }
+     window.scroll=()=>{
+          menu.classList.remove('bx-x')
+          navigate.classList.remove('active') 
+     }
+ 
+     </script>
+  </body>
+</html>

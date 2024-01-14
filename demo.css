@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: o;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(14, 55, 54, 0.14);
+  padding: 15px 10%;
+  transition: all 0.2s;
+}
+header a {
+  color: #008148;
+  font-weight: 900;
+  font-size: 30px;
+}
+header .logo {
+  width: 30px;
+}
+header .navbar {
+  display: flex;
+}
+header .navbar a {
+  font-size: 1rem;
+  padding: 11px 20px;
+  font-weight: 600;
+  color: #1e3932;
+  text-transform: uppercase;
+}
+header .navbar a:hover {
+  color: #008148;
+}
+header #menu-icon {
+  font-size: 24px;
+  z-index: 1001;
+  cursor: pointer;
+  display: none;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 150px 10%;
+}
+.home .home-text span {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.home .home-text h1 {
+  font-size: 3rem;
+  color: #008148;
+  font-weight: bold;
+}
+.home .home-text h2 {
+  font-size: 2.5rem;
+}
+.home .home-text .btn {
+  margin-top: 40px;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px gray;
+}
+.home .home-text .btn:hover {
+  box-shadow: 0 4px 10px #008148;
+}
+.home img {
+  width: 500px;
+  animation: animate 3s linear infinite;
+}/*# sourceMappingURL=demo.css.map */
