@@ -99,7 +99,6 @@ header #menu-icon {
   padding: 45px;
   transition: all 0.5s;
   cursor: pointer;
-  border: 2px solid rgba(128, 128, 128, 0.155);
   background-color: rgba(128, 128, 128, 0.142);
 }
 .items .sub-box img {
@@ -124,4 +123,39 @@ header #menu-icon {
   border-radius: 12px;
   will-change: transform;
   transform: perspective(1000px) rotateX(4.8deg) rotateY(10.23deg) scale3d(1.05, 1.05, 1.05);
+}
+
+.cta {
+  margin-top: 50px;
+  padding: 0 10%;
+  margin-bottom: 30px;
+}
+.cta .heading {
+  text-align: center;
+}
+
+.cta-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  grid-gap: 1rem;
+  align-items: center;
+  margin-top: 5rem;
+  text-align: center;
+}
+.cta-box .wrap {
+  background: #ffffff;
+  box-shadow: 18px 0px 87px 0px rgba(10, 15, 70, 0.07);
+  border-radius: 12px;
+  padding: 20px 20px 20px 20px;
+  transition: ease 0.4s;
+  cursor: pointer;
+}
+.cta-box .one {
+  background: #baebcd;
+}
+.cta-box .two {
+  background: #D9D1FA;
+}
+.cta-box .three {
+  background: #faedce;
 }/*# sourceMappingURL=demo.css.map */
