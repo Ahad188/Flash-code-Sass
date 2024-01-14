@@ -85,4 +85,43 @@ header #menu-icon {
 .home img {
   width: 500px;
   animation: animate 3s linear infinite;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  grid-gap: 4rem;
+  align-items: center;
+  text-align: center;
+  padding: 0 10%;
+}
+.items .sub-box {
+  padding: 45px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border: 2px solid rgba(128, 128, 128, 0.155);
+  background-color: rgba(128, 128, 128, 0.142);
+}
+.items .sub-box img {
+  max-width: 100%;
+  width: 60px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.items .sub-box h3 {
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.items .sub-box p {
+  color: #1e3932;
+  line-height: 29px;
+  font-size: var(--p-font);
+}
+.items .sub-box:hover {
+  background: #ffffff;
+  box-shadow: 18px 0px 87px 0px rgba(10, 15, 70, 0.07);
+  border-radius: 12px;
+  will-change: transform;
+  transform: perspective(1000px) rotateX(4.8deg) rotateY(10.23deg) scale3d(1.05, 1.05, 1.05);
 }/*# sourceMappingURL=demo.css.map */
